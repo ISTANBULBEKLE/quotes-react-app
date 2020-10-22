@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card-div{
+  display:flex;
+  border: 2px solid greenyellow;
+}
+
+.card-quote{
+  font-family: serif;
+  font-size:26;
+  
+}
