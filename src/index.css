@@ -13,12 +13,11 @@ code {
 }
 
 .card-div{
-  display:flex;
-  border: 2px solid greenyellow;
+  border: 2px solid rgb(243, 62, 62);
 }
 
 .card-quote{
   font-family: serif;
   font-size:26;
-  
+
 }
