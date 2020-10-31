@@ -12,12 +12,29 @@ code {
     monospace;
 }
 
-.card-div{
-  border: 2px solid rgb(243, 62, 62);
+
+.card{
+  border: 2px solid rgb(139, 209, 250);
 }
 
+.card-div{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  border: 2px solid rgb(96, 245, 170);
+}
+
+
+
 .card-quote{
+  border:1 px solid black;
   font-family: serif;
   font-size:26;
 
+}
+
+.message-button{
+  justify-content: center;
+  align-self: center;
+  width:20%;
 }
