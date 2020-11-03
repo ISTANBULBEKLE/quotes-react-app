@@ -14,23 +14,22 @@ code {
 
 
 .card{
-  border: 2px solid rgb(139, 209, 250);
+  /* border: 2px solid rgb(139, 209, 250); */
+    /* border:1 px solid black; */
 }
 
 .card-div{
   display:flex;
   flex-direction: column;
   justify-content:center;
-  border: 2px solid rgb(96, 245, 170);
+ 
 }
 
 
 
 .card-quote{
-  border:1 px solid black;
   font-family: serif;
   font-size:26;
-
 }
 
 .message-button{

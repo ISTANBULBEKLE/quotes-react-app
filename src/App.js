@@ -30,7 +30,7 @@ useEffect(()=>{
               <h2 className='card-quote'>{fetchQuotes.quote}</h2>
               <p className='quote-author'>{fetchQuotes.author}</p>
           </div>
-          <button onClick={handleQuotes} className="btn btn-lg btn-primary btn-block message message-button" type="submit">Click for a Quote</button>
+          <button onClick={handleQuotes} className="btn btn-lg btn-primary message message-button" type="submit">Click for a Quote</button>
         </div>
   );
 }
