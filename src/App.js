@@ -1,22 +1,27 @@
 import React, {useState,useEffect} from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
 function App() {
 
 const[fetchQuotes, setFetchQuotes]= useState([]);
+const [dependencyHook, setDependencyHook] = useState(false);
+
+
 
 function handleQuotes (){
-  console.log('hello');
+  setDependencyHook(!dependencyHook);
   setFetchQuotes(fetchQuotes);
 }
+
 
 useEffect(()=>{
   fetch('https://cyf-ekipkalir-quotes-id.glitch.me/quotes/random')
   .then(response => response.json())
-  .then(data => console.log(setFetchQuotes(data)))
+  .then(data => setFetchQuotes(data))
   .catch(error => console.log(error));
-
-},[]);
+  
+},[dependencyHook]);
 
   return (
   
